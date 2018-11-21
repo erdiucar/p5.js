@@ -18,11 +18,11 @@ function draw() {
   strokeWeight(10);
   line(350, 10, 160, 150);
 
-  // Şeklin içinin rengini ayarlıyor
+  // Şeklin içinin rengini ayarlıyor. Sondaki 100 değeriyse saydamlığı ayarlıyor. 0'a yaklaştıkça saydamlık artıyor
   fill(200, 0, 0, 100);
   ellipse(80, 250, 100, 60);
 
-  // Şeklin dış çizgisinin ve çizginin rengini ayarlıyor
+  // Şeklin dış çizgisinin ve çizginin rengini ayarlıyor. Sondaki 100 değeriyse saydamlığı ayarlıyor
   stroke(220, 222, 30, 100);
 
   // Şeklin içinin dolu olmamasını sağlıyor

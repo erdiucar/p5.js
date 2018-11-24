@@ -1,11 +1,13 @@
 // Bu fonksiyon bir kere çalışıyor
-function setup() {
+function setup() 
+{
   // Çalışma alanı oluşturuluyor
   createCanvas(370, 370);
 }
 
 // Bu fonksiyonla program döngüye giriyor
-function draw() {
+function draw() 
+{
   // Arka plan rengi ayarlanıyor
   background(160, 233, 111);
 

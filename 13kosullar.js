@@ -8,7 +8,7 @@ function setup()
 function draw()
 {
     // Eğer mouse basılıysa çizgi çiziliyor
-    if (mouseIsPressed == true)
+    if (mouseIsPressed)
     {
         line(mouseX, mouseY, pmouseX, pmouseY);
     }

@@ -5,7 +5,8 @@ var renk;
 function setup()
 {
     createCanvas(windowWidth, windowHeight);
-    diam = height / 5;
+    // Yin-Yang'ın boyutu ayarlanıyor
+    diam = height / 3;
 }
 
 function draw()

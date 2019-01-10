@@ -6,4 +6,4 @@ https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-
 
 Kodlarla beraber çıktılarını da png formatında ekledim.
 
-Kendi yazdığım kodları ise [CodePen](https://www.codepen.io/erdiucar)'de paylaştım.
+Kendi yazdığım kodları ise [CodePen sayfamda](https://www.codepen.io/erdiucar) paylaştım.

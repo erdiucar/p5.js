@@ -1,3 +1,8 @@
+/*
+Animation: 
+https://codepen.io/erdiucar/pen/oQraJW
+*/
+
 var diam;
 var theta;
 var renk;

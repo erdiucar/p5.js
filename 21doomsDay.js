@@ -24,7 +24,7 @@ function setup() {
 
 function draw() {
     sunWidth++;
-    sunColor = sunColor - sunColorChange;
+    sunColor -= sunColorChange;
     
     // the beautiful blue sky
     background(82, 222, 240);

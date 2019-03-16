@@ -13,10 +13,10 @@ Kendi yazdığım kodları [CodePen sayfamda](https://www.codepen.io/erdiucar) p
 ## 1. [Cosmic Waves](https://codepen.io/erdiucar/pen/mQaVoo)
 ![alt text](https://github.com/erdiucar/p5.js/blob/master/10donguler.png)
 
-## 2. [Yin and Yang](https://codepen.io/erdiucar/pen/oQraJW) (İnteraktif)
+## 2. [Yin and Yang](https://codepen.io/erdiucar/pen/oQraJW) (Etkileşimli)
 ![alt text](https://github.com/erdiucar/p5.js/blob/master/16yinYang.png)
 
-## 3. [Football](https://codepen.io/erdiucar/pen/ebpgxx) (İnteraktif)
+## 3. [Football](https://codepen.io/erdiucar/pen/ebpgxx) (Etkileşimli)
 ![alt text](https://github.com/erdiucar/p5.js/blob/master/20futbol.png)
 
 ## 4. [Doomsday](https://codepen.io/erdiucar/pen/GedoPG) (Animasyon)

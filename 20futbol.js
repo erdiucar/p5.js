@@ -1,3 +1,8 @@
+/* 
+Animation: 
+https://codepen.io/erdiucar/pen/ebpgxx
+*/
+
 var resim;
 var aci; // Açı
 var resimBoyut;

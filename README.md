@@ -8,4 +8,9 @@ https://www.khanacademy.org/computing/computer-programming/programming
 
 Kodlarla beraber çıktılarını da png formatında ekledim.
 
-Kendi yazdığım kodları ise [CodePen sayfamda](https://www.codepen.io/erdiucar) paylaştım.
+Kendi yazdığım kodları [CodePen sayfamda](https://www.codepen.io/erdiucar) paylaştım. Ayrıca linklerini aşağıya ekledim:
+
+1. [Cosmic Waves](https://codepen.io/erdiucar/pen/mQaVoo)
+2. [Yin and Yang](https://codepen.io/erdiucar/pen/oQraJW)
+3. [Football](https://codepen.io/erdiucar/pen/ebpgxx)
+4. [Doomsday](https://codepen.io/erdiucar/pen/GedoPG)

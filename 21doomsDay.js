@@ -1,5 +1,5 @@
 var sunWidth;
-var sunStartHeight;
+var startHeight;
 var sunColor;
 var sunColorChange;
 
@@ -11,8 +11,8 @@ function setup() {
     sunWidth = 50;
     // the starting color for the sun
     sunColor = 204;
-    // the starting height for the sun
-    sunStartHeight = height / 1.3;
+    // starting height
+    startHeight = height / 1.3;
   
     sunColorChange = 204 / width;
 }
@@ -26,17 +26,17 @@ function draw() {
 
     // The sun, a little circle on the horizon
     fill(255, sunColor, 0);
-    ellipse(width / 2, sunStartHeight, sunWidth, sunWidth);
+    ellipse(width / 2, startHeight, sunWidth, sunWidth);
     
     // The land, blocking half of the sun
     fill(76, 168, 67);
-    rect(0, height / 1.3, width, height); 
+    rect(0, startHeight, width, height); 
     
     // Eternal darkness
     if (sunColor < 0) {
       background(0, 0, 0);
       fill(0, 0, 0);
-      ellipse(width / 2, sunStartHeight, sunWidth, sunWidth);
-      rect(0, height / 1.3, width, height); 
+      ellipse(width / 2, startHeight, sunWidth, sunWidth);
+      rect(0, startHeight, width, height); 
     }
 }

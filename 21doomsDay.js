@@ -23,7 +23,7 @@ function setup() {
 }
 
 function draw() {
-    sunWidth = sunWidth + 1;
+    sunWidth++;
     sunColor = sunColor - sunColorChange;
     
     // the beautiful blue sky

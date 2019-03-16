@@ -1,3 +1,8 @@
+/* 
+Animation: 
+https://codepen.io/erdiucar/pen/GedoPG
+*/
+
 var sunWidth;
 var startHeight;
 var sunColor;

@@ -123,21 +123,39 @@ class Button {
 }
 
 ///////////////////
-// Button Events
+// Grow Flower Button
 ///////////////////
 
-class ButtonEvent {
-  constructor(buttonObject) {
-    this.buttonObject = buttonObject;
+class GrowFlowersButton extends Button {
+  constructor(
+    xPosition,
+    yPosition,
+    height,
+    width,
+    colorRed,
+    colorGreen,
+    colorBlue,
+    text
+  ) {
+    super(
+      xPosition,
+      yPosition,
+      height,
+      width,
+      colorRed,
+      colorGreen,
+      colorBlue,
+      text
+    );
   }
 
   // Growing flowers event
-  clickToGrowFlower(flowerObject, growAmount) {
+  clickEvent(flowerObject, growAmount) {
     if (
-      mouseX > this.buttonObject.xPosition &&
-      mouseX < this.buttonObject.xPosition + this.buttonObject.width &&
-      mouseY > this.buttonObject.yPosition &&
-      mouseY < this.buttonObject.yPosition + this.buttonObject.height
+      mouseX > this.xPosition &&
+      mouseX < this.xPosition + this.width &&
+      mouseY > this.yPosition &&
+      mouseY < this.yPosition + this.height
     ) {
       for (let index = 0; index < flowerObject.length; index++) {
         const element = flowerObject[index];
@@ -157,7 +175,7 @@ let randomFlowers, growButton;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   
-  // Random flowers
+  // Random flowers (Flowers have different colors)
   randomFlowers = [];
   for (let index = 0; index < 4; index++) {
     randomFlowers.push(
@@ -166,7 +184,7 @@ function setup() {
   }
   
   // Growing button
-  growFlowersButton = new Button(
+  growButton = new GrowFlowersButton(
     width - height / 2,
     0,
     height / 3,
@@ -176,9 +194,6 @@ function setup() {
     255,
     "Click to Grow"
   );
-  
-  // Grow flowers click event
-  growFlowersButtonEvent = new ButtonEvent(growFlowersButton);
 }
 
 function draw() {
@@ -193,10 +208,10 @@ function draw() {
   }
   
   // Draw button
-  growFlowersButton.createButton();
+  growButton.createButton();
 }
 
 function mouseClicked() {
   // Click event of button
-  growFlowersButtonEvent.clickToGrowFlower(randomFlowers, height / 30);
+  growButton.clickEvent(randomFlowers, height / 30);
 }
